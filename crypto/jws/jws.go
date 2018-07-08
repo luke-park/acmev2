@@ -15,8 +15,8 @@ import (
 	"hash"
 	"strings"
 
-	acmecrypto "acmev2/crypto"
-	"acmev2/crypto/jwk"
+	acmecrypto "github.com/luke-park/acmev2/crypto"
+	"github.com/luke-park/acmev2/crypto/jwk"
 )
 
 // Header represents a JWS object header.  It is best to not construct an

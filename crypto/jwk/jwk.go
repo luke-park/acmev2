@@ -10,7 +10,7 @@ import (
 	"encoding/json"
 	"math/big"
 
-	acmecrypto "acmev2/crypto"
+	acmecrypto "github.com/luke-park/acmev2/crypto"
 )
 
 // Key represents the structure of a JWK JSON object.  The entries are

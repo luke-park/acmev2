@@ -6,8 +6,8 @@ import (
 	"encoding/base64"
 	"errors"
 
-	"acmev2/crypto/jwk"
-	"acmev2/protocol"
+	"github.com/luke-park/acmev2/crypto/jwk"
+	"github.com/luke-park/acmev2/protocol"
 )
 
 // Client facilitates interaction with an ACME v2 server.  It handles all direct
