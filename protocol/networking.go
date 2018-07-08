@@ -8,8 +8,8 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"acmev2/crypto/jwk"
-	"acmev2/crypto/jws"
+	"github.com/luke-park/acmev2/crypto/jwk"
+	"github.com/luke-park/acmev2/crypto/jws"
 )
 
 // GetDirectory returns an ACME directory for the given directory URL.
